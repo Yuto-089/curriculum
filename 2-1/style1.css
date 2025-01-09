@@ -1,0 +1,41 @@
+/* CSSファイル */
+
+#wrapper { /* 共通の処理 */
+    width: 400px;
+    margin: 0 auto;
+}
+
+.header {
+    height: 100px;
+    background-color: #141f40;
+}
+
+.main {
+    height: 250px;
+}
+
+.left {
+    float: left;
+    width: 150px;
+    height: 100%;
+    background-color: #80bfa8;
+}
+
+.right {
+    float: right;
+    width: 250px;
+    height: 100%;
+    background-color: #8c2727;
+}
+
+
+.footer {
+    height: 100px;
+    background-color: #d98d30;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
